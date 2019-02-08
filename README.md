@@ -1,2 +1,1 @@
-# kyuzaa.github.io
-Hello :')
+# Hello :)

@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>Kyuza</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="icon" href="images/avatar.jpg" type="image/jpg">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload" id="div_root">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="images/avatar.jpg" alt="" style="width: 50% !important"/></span>
+							<h1>Kyuza</h1>
+							<p>Hello World ! :')</p>
+						</header>
+						<!--
+						<hr />
+						<h2>Extra Stuff!</h2>
+						<form method="post" action="#">
+							<div class="fields">
+								<div class="field">
+									<input type="text" name="name" id="name" placeholder="Name" />
+								</div>
+								<div class="field">
+									<input type="email" name="email" id="email" placeholder="Email" />
+								</div>
+								<div class="field">
+									<select name="department" id="department">
+										<option value="">Department</option>
+										<option value="sales">Sales</option>
+										<option value="tech">Tech Support</option>
+										<option value="null">/dev/null</option>
+									</select>
+								</div>
+								<div class="field">
+									<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+								</div>
+								<div class="field">
+									<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
+								</div>
+								<div class="field">
+									<label>But are you a robot?</label>
+									<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
+									<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
+								</div>
+							</div>
+							<ul class="actions special">
+								<li><a href="#" class="button">Get Started</a></li>
+							</ul>
+						</form>
+						<hr />
+						-->
+						<footer>
+							<ul class="icons">
+								<li><a href="mailto:kevinfebrian12@gmail.com" class="fa-envelope">Mail</a>
+								</li>
+								<li><a href="http://kyuza-api.herokuapp.com" target="_blank" class="fa-globe">API</a></li>
+								<li><a href="https://github.com/kyuzaa" target="_blank" class="fa-github">Github</a></li>
+							</ul>
+						</footer>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy;Kyuza </li><li>VISIT <a href="http://kyuza-api.herokuapp.com">MY REST API</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+				var div_root = document.getElementById('div_root');
+		        var snd_music = new Audio('audio/music.m4a');
+        		snd_music.loop = true;
+		        function pok(e) {
+        		    if(snd_music.paused);
+		            snd_music.play();
+        		}
+        		div_root.addEventListener('mousedown', function(e) { pok(e); e.preventDefault(); });
+			</script>
+
+	</body>
+</html>

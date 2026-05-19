@@ -1,0 +1,395 @@
+{
+  "profile": {
+    "name": "Kevin Febrian Bimantara",
+    "headlines": [
+      "Software Engineer",
+      "Fullstack Developer"
+    ],
+    "description": "Saya merupakan seorang developer yang passionate dalam pengembangan web dan mobile. Memiliki pengalaman dalam pengembangan aplikasi menggunakan berbagai teknologi modern seperti React, Laravel, Dart, dan  Next.js. Selalu bersemangat untuk belajar teknologi baru dan mengembangkan solusi yang inovatif.",
+    "photo": "./assets/portfolio/profile/1.png",
+    "cv_path": "./assets/portfolio/cv/cv.pdf",
+    "github_url": "https://github.com/kyuzaa",
+    "linkedin_url": "https://linkedin.com/in/kevinfeb",
+    "instagram_url": "https://instagram.com/vin.fbrn",
+    "twitter_url": "",
+    "email": "kfebrian789@gmail.com"
+  },
+  "activities": [
+    {
+      "id": 1,
+      "heading": "MyCoach ID (Head Of Infrastructure)",
+      "caption": "Sebagai Head Of Infrastructure di MyCoach ID, saya bertanggung jawab dalam pengembangan dan pemeliharaan aplikasi  dan website, menggunakan teknologi modern untuk menghasilkan solusi yang efektif dan scalable."
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Website Pencarian Lowongan Pekerjaan",
+      "category": "Website Fullstack",
+      "slug": "website-pencarian-lowongan-pekerjaan",
+      "excerpt": "Website untuk mencari lowongan pekerjaan yang mengambil data dari 3 situs lowongan kerja (glints, jobstreet, karir.com)",
+      "artikel": "<p><b><span style=\"font-size: 24px;\"><span style=\"font-size: 24px;\">Integrasi Data Lowongan Kerja dari Berbagai Platform Daring Menggunakan Teknik Web Scraping dan API</span></span></b></p><p><span style=\"font-size: 16px;\"><span style=\"font-weight: normal;\"><span style=\"font-size: 18px;\">Perkembangan teknologi informasi telah membawa dampak yang sangat signifikan terhadap cara individu dalam mencari dan mengakses informasi lowongan pekerjaan. Saat ini, berbagai platform daring seperti Glints, Jobstreet, dan Karir.com telah menyediakan informasi lowongan kerja yang sangat beragam bagi masyarakat. Namun, penyebaran informasi di berbagai platform tersebut justru sering kali menimbulkan kendala dan belum mampu memberikan pengalaman pencarian yang efektif maupun efisien. Para pencari kerja masih dihadapkan pada masalah fragmentasi, di mana mereka harus membuang banyak waktu untuk berpindah dari satu situs ke situs lainnya secara terpisah demi memperoleh informasi peluang karir yang lengkap.</span></span></span></p><p><span style=\"font-size: 16px;\">Untuk mengatasi permasalahan fragmentasi informasi tersebut, teknologi </span><i data-path-to-node=\"3\" data-index-in-node=\"71\" style=\"font-size: 16px;\">web scraping</i><span style=\"font-size: 16px;\"> hadir sebagai salah satu teknik pengumpulan data secara otomatis yang sangat ideal. Penerapan </span><i data-path-to-node=\"3\" data-index-in-node=\"210\" style=\"font-size: 16px;\">web scraping</i><span style=\"font-size: 16px;\"> memungkinkan ekstraksi data dari berbagai situs web dilakukan secara cepat dan sistematis, sehingga jauh lebih memudahkan dalam proses pengolahan dan pemanfaatan informasi. Efektivitas penggunaan metode otomatis ini dalam menghasilkan data yang relevan dan terstruktur untuk membangun peta lowongan kerja di Indonesia. Meskipun beberapa penelitian sebelumnya telah menerapkan </span><i data-path-to-node=\"3\" data-index-in-node=\"650\" style=\"font-size: 16px;\">web scraping</i><span style=\"font-size: 16px;\"> untuk berbagai bidang—seperti pengambilan data produk </span><i data-path-to-node=\"3\" data-index-in-node=\"717\" style=\"font-size: 16px;\">e-commerce</i><span style=\"font-size: 16px;\">&nbsp;, pemetaan keahlian siswa , maupun perancangan sistem informasi lowongan kerja secara umum belum ada studi yang secara khusus mengintegrasikan </span><i data-path-to-node=\"3\" data-index-in-node=\"945\" style=\"font-size: 16px;\">scraping</i><span style=\"font-size: 16px;\"> dari beberapa platform pencari kerja raksasa sekaligus ke dalam satu bentuk situs web yang interaktif.</span></p><p>Berangkat dari celah penelitian dan tingginya kebutuhan akan sistem yang lebih terpusat tersebut, penelitian ini merancang dan membangun sebuah <i data-path-to-node=\"4\" data-index-in-node=\"144\">website</i> terintegrasi yang mampu memetakan data lowongan kerja secara otomatis dan sistematis. Proses pengumpulan data dilakukan melalui dua pendekatan utama yang disesuaikan dengan infrastruktur masing-masing platform. Pendekatan pertama menggunakan teknik <i data-path-to-node=\"4\" data-index-in-node=\"401\">web scraping</i> yang memanfaatkan <i data-path-to-node=\"4\" data-index-in-node=\"432\">library</i> BeautifulSoup untuk mengekstraksi data langsung dari situs Glints dan Jobstreet. Sementara itu, pendekatan kedua memanfaatkan <i data-path-to-node=\"4\" data-index-in-node=\"566\">Application Programming Interface</i> (API) untuk mengambil data secara legal dan terstruktur dari Karir.com. Melalui metode ganda ini, sistem dapat menghimpun berbagai informasi krusial secara komprehensif, meliputi nama pekerjaan, nama perusahaan, lokasi penempatan, kisaran gaji, hingga tautan detail menuju halaman lowongan kerja tersebut.</p><p>Seluruh data yang berhasil dikumpulkan kemudian disajikan dalam sebuah antarmuka <i data-path-to-node=\"5\" data-index-in-node=\"81\">website</i> yang rapi dan terstruktur. Guna meningkatkan pengalaman dan kemudahan pengguna, <i data-path-to-node=\"5\" data-index-in-node=\"169\">website</i> ini turut dibekali dengan fitur pencarian dan penyaringan (filter) yang interaktif. Berdasarkan hasil pengujian <i data-path-to-node=\"5\" data-index-in-node=\"289\">User Acceptance Test</i> (UAT) yang telah dilakukan, sistem ini berhasil mencatatkan tingkat penerimaan pengguna yang tinggi, yakni sebesar 89%. Angka ini menandakan bahwa <i data-path-to-node=\"5\" data-index-in-node=\"457\">website</i> yang dikembangkan telah menjawab dan memenuhi kebutuhan para pencari kerja dengan sangat baik. Secara keseluruhan, inovasi sistem ini terbukti berhasil mengintegrasikan tiga sumber lowongan kerja besar melalui dua metode pengambilan data secara efektif, yang pada akhirnya secara nyata mampu meningkatkan efisiensi pencarian kerja serta menyediakan akses informasi yang jauh lebih terpusat, relevan, dan mudah digunakan.</p>",
+      "link": "",
+      "image_path": "./assets/portfolio/projects/project-1-0.png",
+      "images": [
+        {
+          "id": 1000,
+          "path": "./assets/portfolio/projects/project-1-0.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Website Squad Laundry Express",
+      "category": "Website Fullstack",
+      "slug": "website-squad-laundry-express",
+      "excerpt": "Sebuah website untuk UMKM laundry bernama Squad Laundry Express yang menggunakan framework Laravel",
+      "artikel": "<p><span style=\"font-size: 20px;\"><span style=\"font-size: 24px;\"><b>SQUAD Laundry Express: Digitalisasi dan Efisiensi Pengelolaan Layanan Jasa Cuci Pakaian</b></span></span></p><p><span style=\"font-size: 20px;\"></span><span style=\"font-size: 24px;\">​</span>Di era digital saat ini, kemudahan dan efisiensi telah menjadi kebutuhan utama masyarakat di berbagai aspek kehidupan, termasuk dalam urusan kebersihan pakaian. Layanan <i data-path-to-node=\"2\" data-index-in-node=\"169\">laundry</i> kini semakin menjadi pilihan populer, terutama bagi masyarakat dengan tingkat kesibukan tinggi yang tidak lagi memiliki waktu luang untuk mencuci pakaiannya sendiri. Sayangnya, di tengah pesatnya perkembangan teknologi informasi, masih banyak penyedia jasa <i data-path-to-node=\"2\" data-index-in-node=\"434\">laundry</i> yang mengandalkan sistem pencatatan manual dalam mengelola data transaksi pemesanan maupun data pelanggannya. Pendekatan konvensional ini sering kali memicu masalah ketidakefisienan dalam operasional sehari-hari. Oleh karena itu, muncul sebuah urgensi akan hadirnya sistem <i data-path-to-node=\"2\" data-index-in-node=\"715\">e-business</i> yang lebih modern dan terintegrasi untuk membantu para pemilik usaha dalam mengelola data secara lebih terstruktur.</p><p><!--StartFragment-->Berangkat dari permasalahan tersebut, penelitian ini merancang dan membangun sebuah platform bernama SQUAD Laundry Express, yaitu inovasi layanan <i data-path-to-node=\"3\" data-index-in-node=\"146\">laundry</i> berbasis <i data-path-to-node=\"3\" data-index-in-node=\"163\">website</i> yang bertujuan menjembatani kebutuhan pelanggan dan pengelola usaha. Pemanfaatan teknologi informasi dan komunikasi pada aplikasi ini difokuskan untuk memberikan kemudahan yang maksimal. Dari sisi pengguna (<i data-path-to-node=\"3\" data-index-in-node=\"378\">customer</i>), <i data-path-to-node=\"3\" data-index-in-node=\"389\">website</i> ini memungkinkan mereka untuk memesan layanan jasa <i data-path-to-node=\"3\" data-index-in-node=\"448\">laundry</i>, melacak status pesanan secara berkala, hingga melakukan proses pembayaran secara <i data-path-to-node=\"3\" data-index-in-node=\"538\">online</i>. Sementara itu, dari sisi pemilik <i data-path-to-node=\"3\" data-index-in-node=\"579\">laundry</i>, platform ini menawarkan sistem digital yang sangat memudahkan proses rekapitulasi data transaksi dan manajemen informasi pelanggan, sehingga efektivitas dan efisiensi operasional layanan dapat meningkat secara signifikan.<!--EndFragment--></p><p><!--StartFragment-->Dalam proses pengembangannya, <i data-path-to-node=\"4\" data-index-in-node=\"30\">website</i> SQUAD Laundry Express dibangun dengan menerapkan metode <i data-path-to-node=\"4\" data-index-in-node=\"94\">Software Development Life Cycle</i> (SDLC) yang sistematis. Proses pengembangannya melalui tahapan yang komprehensif, mulai dari perencanaan, analisis kebutuhan, desain, implementasi, uji coba, hingga tahap pengelolaan. Secara teknis, sistem ini dirancang menggunakan <i data-path-to-node=\"4\" data-index-in-node=\"358\">text editor</i> Visual Studio Code dan bahasa pemrograman PHP yang ditopang oleh ketangguhan <i data-path-to-node=\"4\" data-index-in-node=\"447\">framework</i> Laravel. Guna memastikan kualitas dan keandalannya, aplikasi ini telah melewati serangkaian pengujian <i data-path-to-node=\"4\" data-index-in-node=\"559\">blackbox testing</i> dan uji coba <i data-path-to-node=\"4\" data-index-in-node=\"589\">website</i>. Hasil pengujian tersebut memastikan bahwa seluruh fungsionalitas sistem telah terintegrasi dengan baik dan siap digunakan, menjadikan SQUAD Laundry Express sebagai solusi digital yang nyata dalam memodernisasi tata kelola bisnis <i data-path-to-node=\"4\" data-index-in-node=\"827\">laundry</i>.<!--EndFragment--></p>",
+      "link": "",
+      "image_path": "./assets/portfolio/projects/project-2-0.png",
+      "images": [
+        {
+          "id": 2000,
+          "path": "./assets/portfolio/projects/project-2-0.png"
+        },
+        {
+          "id": 2001,
+          "path": "./assets/portfolio/projects/project-2-1.png"
+        },
+        {
+          "id": 2002,
+          "path": "./assets/portfolio/projects/project-2-2.png"
+        },
+        {
+          "id": 2003,
+          "path": "./assets/portfolio/projects/project-2-3.png"
+        },
+        {
+          "id": 2004,
+          "path": "./assets/portfolio/projects/project-2-4.png"
+        },
+        {
+          "id": 2005,
+          "path": "./assets/portfolio/projects/project-2-5.png"
+        },
+        {
+          "id": 2006,
+          "path": "./assets/portfolio/projects/project-2-6.png"
+        },
+        {
+          "id": 2007,
+          "path": "./assets/portfolio/projects/project-2-7.png"
+        },
+        {
+          "id": 2008,
+          "path": "./assets/portfolio/projects/project-2-8.png"
+        },
+        {
+          "id": 2009,
+          "path": "./assets/portfolio/projects/project-2-9.png"
+        },
+        {
+          "id": 2010,
+          "path": "./assets/portfolio/projects/project-2-10.png"
+        },
+        {
+          "id": 2011,
+          "path": "./assets/portfolio/projects/project-2-11.png"
+        },
+        {
+          "id": 2012,
+          "path": "./assets/portfolio/projects/project-2-12.png"
+        },
+        {
+          "id": 2013,
+          "path": "./assets/portfolio/projects/project-2-13.png"
+        },
+        {
+          "id": 2014,
+          "path": "./assets/portfolio/projects/project-2-14.png"
+        }
+      ]
+    },
+    {
+      "id": 1779113849784,
+      "name": "Aplikasi Warung Mamah Yudha",
+      "category": "Aplikasi Mobile",
+      "slug": "aplikasi-warung-mamah-yudha",
+      "excerpt": "Aplikasi E-Commerce yang dibangun menggunakan bahasa pemrograman Dart dan menggunakan framework Flutter",
+      "artikel": "<!--StartFragment--><span style=\"font-size: 24px;\"><b>Transformasi Digital UMKM Kuliner: Pengembangan Aplikasi Penjualan \"Mama Yuda\"</b></span><!--EndFragment--><div><span style=\"font-size: 24px;\"><b><span style=\"font-size: 16px;\">​</span></b></span>Makanan merupakan kebutuhan pokok manusia yang pemenuhannya tidak dapat ditunda, dan seiring dengan pesatnya kemajuan zaman serta teknologi, industri kuliner pun turut mengalami pertumbuhan yang sangat signifikan. Saat ini, transisi menuju bisnis kuliner berbasis daring telah membuka peluang emas bagi para pelaku usaha untuk memperluas jangkauan pasar mereka tanpa batasan geografis. Sayangnya, banyak bisnis kuliner, khususnya pada sektor Usaha Mikro, Kecil, dan Menengah (UMKM), yang masih menghadapi kendala serius dalam upaya pengembangan usahanya akibat minimnya literasi dan pemanfaatan teknologi. Ketergantungan yang kuat pada metode penjualan konvensional membuat para pelaku UMKM kuliner ini kesulitan untuk beradaptasi, sehingga daya saing mereka menurun jika dibandingkan dengan kompetitor yang telah lebih dahulu mengadopsi teknologi digital.<span style=\"font-size: 24px;\"><b><br></b></span></div><div><!--StartFragment-->Beranjak dari urgensi untuk meningkatkan daya saing UMKM tersebut, penelitian ini bertujuan untuk merancang dan mengembangkan sebuah sistem penjualan daring yang diberi nama \"Mama Yuda\". Aplikasi ini hadir sebagai solusi konkret bagi bisnis kuliner agar lebih mudah dan terstruktur dalam mengelola operasional penjualan harian. Dalam proses pembangunannya, aplikasi ini dirancang menggunakan Flutter sebagai <i data-path-to-node=\"3\" data-index-in-node=\"408\">framework</i> utama untuk pengembangan di platform <i data-path-to-node=\"3\" data-index-in-node=\"455\">mobile</i>. Sementara itu, manajemen basis datanya mengandalkan ketangguhan Firebase guna menyimpan seluruh informasi krusial seperti katalog produk, riwayat transaksi, hingga profil pengguna. Untuk memastikan pengembangan berjalan sistematis, penelitian ini menerapkan metode <i data-path-to-node=\"3\" data-index-in-node=\"728\">System Development Life Cycle</i> (SDLC) yang mencakup serangkaian tahapan bertahap, mulai dari perencanaan dan analisis, perancangan, implementasi, hingga proses uji coba menyeluruh.<!--EndFragment--></div><div><!--StartFragment-->Guna memastikan fungsionalitas yang terarah, aplikasi \"Mama Yuda\" membagi ekosistemnya ke dalam dua tipe pengguna dengan hak akses yang berbeda. Tipe pengguna pertama adalah <i data-path-to-node=\"4\" data-index-in-node=\"174\">admin</i>, yang memiliki kendali penuh untuk mengelola ketersediaan produk dan memproses setiap pesanan yang masuk. Adapun tipe pengguna kedua adalah <i data-path-to-node=\"4\" data-index-in-node=\"320\">user</i> atau pelanggan, yang difasilitasi dengan antarmuka untuk melihat daftar menu makanan, menambahkan pilihan ke dalam keranjang, dan melakukan <i data-path-to-node=\"4\" data-index-in-node=\"465\">checkout</i> pemesanan. Melalui peluncuran aplikasi ini, diharapkan proses jual beli makanan secara daring dapat berlangsung dengan jauh lebih praktis dan terstruktur. Ke depannya, inovasi digital ini tidak hanya berpotensi meningkatkan efisiensi dalam hal pelayanan pelanggan dan pengelolaan pesanan, tetapi juga menjadi ujung tombak bagi UMKM kuliner dalam memperluas jangkauan pasar mereka di era modern.<!--EndFragment--></div><div><br></div><!--StartFragment--><!--EndFragment-->",
+      "link": "",
+      "image_path": "./assets/portfolio/projects/project-1779113849784-0.png",
+      "images": [
+        {
+          "id": 1779113849784000,
+          "path": "./assets/portfolio/projects/project-1779113849784-0.png"
+        },
+        {
+          "id": 1779113849784001,
+          "path": "./assets/portfolio/projects/project-1779113849784-1.png"
+        },
+        {
+          "id": 1779113849784002,
+          "path": "./assets/portfolio/projects/project-1779113849784-2.png"
+        },
+        {
+          "id": 1779113849784003,
+          "path": "./assets/portfolio/projects/project-1779113849784-3.png"
+        },
+        {
+          "id": 1779113849784004,
+          "path": "./assets/portfolio/projects/project-1779113849784-4.png"
+        },
+        {
+          "id": 1779113849784005,
+          "path": "./assets/portfolio/projects/project-1779113849784-5.png"
+        },
+        {
+          "id": 1779113849784006,
+          "path": "./assets/portfolio/projects/project-1779113849784-6.png"
+        },
+        {
+          "id": 1779113849784007,
+          "path": "./assets/portfolio/projects/project-1779113849784-7.png"
+        },
+        {
+          "id": 1779113849784008,
+          "path": "./assets/portfolio/projects/project-1779113849784-8.png"
+        }
+      ]
+    },
+    {
+      "id": 1779184116975,
+      "name": "Aplikasi Kasir Ary Seafood",
+      "category": "Aplikasi Mobile",
+      "slug": "aplikasi-kasir-ary-seafood",
+      "excerpt": "Aplikasi kasir/POS yang dibangun menggunakan bahasa pemrograman Dart dengan framework Flutter",
+      "artikel": "<span style=\"font-size: 24px;\"><b>Pengenalan Aplikasi Ary Seafood POS</b></span><div><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 14px;\"><span style=\"font-size: 16px;\">​Ary Seafood POS adalah sebuah aplikasi Point of Sale (POS) atau sistem kasir digital yang dirancang khusus untuk memenuhi kebutuhan operasional bisnis kuliner seafood. Aplikasi ini dibangun menggunakan framework Flutter, sebuah teknologi lintas platform buatan Google yang memungkinkan satu basis kode berjalan di berbagai perangkat seperti Android, iOS, desktop, maupun web. Dengan memanfaatkan Flutter dan bahasa pemrograman Dart, Ary Seafood POS menawarkan performa yang cepat, antarmuka yang modern, serta pengalaman pengguna yang responsif baik digunakan pada perangkat smartphone maupun tabl</span>et.</span></span><br></span></div><div><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 14px;\"><span style=\"font-size: 24px;\"><b>​Backend dan Sinkronisasi Data Realtime</b></span><br></span></span></span></div><div><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 14px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\">​Sebagai tulang punggung pengelolaan data, Ary Seafood POS menggunakan Supabase, yaitu platform Backend-as-a-Service (BaaS) berbasis open-source yang menyediakan database PostgreSQL, autentikasi, dan fitur realtime secara terintegrasi. Penggunaan Supabase memungkinkan seluruh data menu, transaksi, dan kategori tersinkronisasi secara realtime antar perangkat tanpa perlu melakukan refresh manual. Arsitektur aplikasi ini menerapkan pola koneksi stream tunggal yang dibuka satu kali di level utama aplikasi, lalu dibagikan ke seluruh layar yang membutuhkan. Pendekatan ini memastikan efisiensi koneksi, menghindari duplikasi koneksi realtime, serta menjaga konsistensi data yang ditampilkan di setiap halaman secara bersamaan.</span><br></span></span></span></span></div><div><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 14px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><b><span style=\"font-size: 24px;\">​Fitur Dashboard — Ringkasan Bisnis dalam Satu Tampilan</span></b></span></span></span></span></span></span></div><div><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 14px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 14px;\"><span style=\"font-size: 16px;\">Halaman Dashboard menjadi tampilan utama yang menyajikan ringkasan performa bisnis secara langsung. Pada bagian atas halaman, terdapat kartu besar bergradien warna oranye yang menampilkan total pemasukan dari seluruh transaksi yang pernah tercatat. Di bawahnya, tersedia tiga kartu statistik yang menampilkan jumlah transaksi hari ini, total seluruh transaksi yang tercatat, serta jumlah menu yang tersedia. Seluruh data ini diperbarui secara otomatis karena memanfaatkan fitur realtime stream dari Supabase, sehingga setiap kali ada transaksi baru yang dibuat melalui halaman kasir, angka-angka di dashboard akan langsung berubah tanpa perlu berpindah halaman atau melakukan tindakan apapun.</span></span></span></span></span></span></span></span></div><div><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 14px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 14px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 20px;\"><span style=\"font-size: 20px;\"><span style=\"font-size: 24px;\"><b>Fitur Kasir — Proses Transaksi yang Cepat dan Intuitif</b></span></span></span></span></span></span></span></span></span></span></span></div><div><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 14px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 14px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 20px;\"><span style=\"font-size: 20px;\"></span></span><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\">​Halaman Kasir merupakan inti utama dari aplikasi ini, yaitu tempat dimana proses pencatatan penjualan dilakukan. Halaman ini menyajikan daftar seluruh menu dalam tampilan grid yang rapi, lengkap dengan ikon kategori (makanan, minuman, atau nasi) dan harga dalam format mata uang Rupiah. Pengguna dapat mencari menu melalui kolom pencarian, serta memasukkan nama pelanggan secara opsional untuk keperluan identifikasi pesanan. Ketika sebuah menu ditekan, item tersebut akan otomatis masuk ke dalam keranjang pesanan. Panel keranjang menampilkan daftar item yang dipesan beserta kuantitasnya, kolom input untuk memasukkan jumlah uang yang diterima dari pelanggan dengan format mata uang otomatis, perhitungan kembalian secara realtime, serta tombol \"Bayar Sekarang\" yang aktif hanya ketika jumlah pembayaran mencukupi. Setelah tombol pembayaran ditekan, data transaksi akan langsung tersimpan ke database Supabase dan keranjang akan direset secara otomatis.</span></span></span></span></span></span></span></span></span></span></div><div><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 14px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 14px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><b><span style=\"font-size: 24px;\">Fitur Riwayat Transaksi — Pelacakan dan Manajemen Pesanan</span></b></span></span></span></span></span></span></span></span></span></span></div><div><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 14px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 14px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\">Halaman Riwayat Transaksi berfungsi untuk menampilkan seluruh catatan transaksi yang pernah dilakukan. Pengguna dapat memfilter transaksi berdasarkan tanggal tertentu menggunakan date picker, serta memfilter berdasarkan status pesanan yaitu \"Pesanan Baru\", \"Dalam Proses\", dan \"Selesai\". Setiap kartu transaksi menampilkan informasi lengkap meliputi nama pelanggan, nomor urut antrian untuk pesanan yang masih aktif, tanggal dan waktu transaksi dalam format Indonesia, rincian item yang dipesan, dan total pembayaran. Sistem manajemen status pesanan memungkinkan pengguna untuk mengubah status secara bertahap: dari \"Pesanan Baru\" ke \"Dalam Proses\", kemudian ke \"Selesai\". Pada pesanan yang sudah berstatus \"Selesai\", tersedia tombol untuk mencetak struk pembayaran melalui printer Bluetooth.</span></span></span></span></span></span></span></span></span></span></span></span></div><div><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 14px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 14px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><b><span style=\"font-size: 24px;\">Fitur Cetak Struk Bluetooth — Pencetakan Struk Thermal</span></b></span></span></span></span></span></span></span></span></span></span></span></span></div><div><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 14px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 14px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\">Salah satu fitur unggulan Ary Seafood POS adalah kemampuan mencetak struk pembayaran secara langsung melalui printer thermal Bluetooth. Aplikasi ini menggunakan library <i>print_bluetooth_thermal</i> dan <i>esc_pos_utils_plus</i> untuk menghasilkan format struk dengan lebar kertas 58mm. Struk yang dihasilkan mencantumkan nama usaha \"ARY SEAFOOD 74\", informasi pelanggan, tanggal dan waktu transaksi, rincian pesanan beserta harga per item, total pembayaran, jumlah uang tunai yang diterima, kembalian, serta pesan terima kasih dan informasi kontak WhatsApp untuk pemesanan. Halaman Pengaturan Printer menyediakan antarmuka untuk melakukan pairing, scanning, koneksi, maupun pemutusan koneksi dengan perangkat printer Bluetooth, dilengkapi indikator status koneksi yang jelas.</span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 14px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 14px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><b><span style=\"font-size: 24px;\">Fitur Manajemen Menu dan Kategori — Pengelolaan Data Produk</span></b></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 14px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 14px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\">Halaman Menu memberikan kontrol penuh kepada pengguna untuk mengelola seluruh data produk yang dijual. Sistem ini menggunakan navigasi dua tingkat: pertama menampilkan daftar kategori beserta jumlah item di dalamnya, kemudian setelah kategori dipilih, barulah ditampilkan daftar menu pada kategori tersebut. Pengguna dapat menambahkan kategori baru, menghapus kategori yang kosong, menambahkan menu baru dengan formulir yang lengkap (nama, kategori, dan harga), mengedit menu yang sudah ada, serta menghapus menu yang tidak diperlukan lagi. Setiap perubahan yang dilakukan akan langsung tersinkronisasi secara realtime ke seluruh bagian aplikasi berkat arsitektur stream yang digunakan.</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 14px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 14px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><b><span style=\"font-size: 24px;\">Teknologi dan Arsitektur yang Digunakan</span></b></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 14px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 14px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\"><span style=\"font-size: 24px;\"><span style=\"font-size: 16px;\">​Secara keseluruhan, Ary Seafood POS dibangun dengan fondasi teknologi modern yang solid. Flutter sebagai framework utama memastikan performa native-like di berbagai platform. Supabase sebagai backend menyediakan database PostgreSQL yang handal dengan kemampuan realtime. Material Design 3 digunakan sebagai sistem desain untuk menciptakan antarmuka yang bersih, modern, dan konsisten. Library <i>intl</i> menangani format tanggal dan mata uang sesuai standar Indonesia (locale id_ID). Library <i>print_bluetooth_thermal</i> dan <i>esc_pos_utils_plus</i> memungkinkan integrasi pencetakan struk thermal. Sementara itu, library <i>permission_handler</i> mengelola perizinan perangkat secara elegan pada Android 12 ke atas. Kombinasi seluruh teknologi ini menjadikan Ary Seafood POS sebagai solusi kasir digital yang komprehensif, efisien, dan siap digunakan untuk operasional bisnis kuliner sehari-hari.</span><br></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><!--EndFragment-->",
+      "link": "",
+      "image_path": "./assets/portfolio/projects/project-1779184116975-0.png",
+      "images": [
+        {
+          "id": 1779184116975000,
+          "path": "./assets/portfolio/projects/project-1779184116975-0.png"
+        },
+        {
+          "id": 1779184116975001,
+          "path": "./assets/portfolio/projects/project-1779184116975-1.png"
+        },
+        {
+          "id": 1779184116975002,
+          "path": "./assets/portfolio/projects/project-1779184116975-2.png"
+        },
+        {
+          "id": 1779184116975003,
+          "path": "./assets/portfolio/projects/project-1779184116975-3.png"
+        },
+        {
+          "id": 1779184116975004,
+          "path": "./assets/portfolio/projects/project-1779184116975-4.png"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    "All",
+    "Website Fullstack",
+    "Aplikasi Mobile"
+  ],
+  "educations": [
+    {
+      "id": 1,
+      "school": "Universitas Gunadarma",
+      "degree": "S1",
+      "program": "Informatika",
+      "start_date": "2021-09-01",
+      "end_date": "2025-09-01",
+      "grade": "3.63",
+      "description": "Aktif dalam berbagai kompetisi pemrograman dan pengembangan proyek."
+    }
+  ],
+  "experiences": [
+    {
+      "id": 1,
+      "title": "Fullstack Developer",
+      "employment_type": "internship",
+      "employment_type_label": "Internship",
+      "company": "PT CONTROL SYSTEM ARENA PARA NUSA",
+      "start_date": "2020-01-01",
+      "end_date": "2024-03-01",
+      "location": "Jakarta, Indonesia",
+      "location_type": "on_site",
+      "location_type_label": "On-site",
+      "description": "Mengembangkan aplikasi web perusahaan menggunakan PHP murni",
+      "photo": "./assets/portfolio/experience/experience-1.jpg"
+    }
+  ],
+  "certifications": [
+    {
+      "id": 1,
+      "name": "Basic Web Application Development",
+      "issuer": "Universitas Gunadarma",
+      "issued_at": "2025-05-27",
+      "expires_at": "2030-12-31",
+      "credential_id": "863899",
+      "credential_url": "",
+      "image": "./assets/portfolio/certifications/cert-1.pdf",
+      "cover": "./assets/portfolio/certifications/cert-1-cover.png"
+    },
+    {
+      "id": 1779110933509,
+      "name": "Basic Web Application Design",
+      "issuer": "Universitas Gunadarma",
+      "issued_at": "2024-09-23",
+      "expires_at": "2030-12-31",
+      "credential_id": "210045",
+      "credential_url": "",
+      "image": "./assets/portfolio/certifications/cert-1779110933509.pdf",
+      "cover": "./assets/portfolio/certifications/cert-1779110933509-cover.png"
+    },
+    {
+      "id": 1779111215733,
+      "name": "Building Website using HTML 5",
+      "issuer": "Universitas Gunadarma",
+      "issued_at": "2024-07-25",
+      "expires_at": "2025-12-31",
+      "credential_id": "320644",
+      "credential_url": "",
+      "image": "./assets/portfolio/certifications/cert-1779111215733.pdf",
+      "cover": "./assets/portfolio/certifications/cert-1779111215733-cover.png"
+    },
+    {
+      "id": 1779111294341,
+      "name": "FUNDAMENTAL DBMS",
+      "issuer": "Universitas Gunadarma",
+      "issued_at": "2022-08-22",
+      "expires_at": "2025-12-31",
+      "credential_id": "745795",
+      "credential_url": "",
+      "image": "./assets/portfolio/certifications/cert-1779111294341.pdf",
+      "cover": "./assets/portfolio/certifications/cert-1779111294341-cover.png"
+    },
+    {
+      "id": 1779111385580,
+      "name": "FUNDAMENTAL WEB PROGRAMMING",
+      "issuer": "Universitas Gunadarma",
+      "issued_at": "2022-02-21",
+      "expires_at": "2025-12-31",
+      "credential_id": "235877",
+      "credential_url": "",
+      "image": "./assets/portfolio/certifications/cert-1779111385580.pdf",
+      "cover": "./assets/portfolio/certifications/cert-1779111385580-cover.png"
+    },
+    {
+      "id": 1779111703731,
+      "name": "ORACLE FOR BEGINNER",
+      "issuer": "Universitas Gunadarma",
+      "issued_at": "2023-02-20",
+      "expires_at": "2030-12-31",
+      "credential_id": "065837",
+      "credential_url": "",
+      "image": "./assets/portfolio/certifications/cert-1779111703731.pdf",
+      "cover": "./assets/portfolio/certifications/cert-1779111703731-cover.png"
+    },
+    {
+      "id": 1779111838417,
+      "name": "ORACLE FOR INTERMEDIATE",
+      "issuer": "Universitas Gunadarma",
+      "issued_at": "2024-08-18",
+      "expires_at": "2025-12-31",
+      "credential_id": "345562",
+      "credential_url": "",
+      "image": "./assets/portfolio/certifications/cert-1779111838417.png",
+      "cover": ""
+    },
+    {
+      "id": 1779112218860,
+      "name": "SQL SERVER FOR BEGINNER",
+      "issuer": "Universitas Gunadarma",
+      "issued_at": "2023-02-20",
+      "expires_at": "2030-12-31",
+      "credential_id": "005071",
+      "credential_url": "",
+      "image": "./assets/portfolio/certifications/cert-1779112218860.pdf",
+      "cover": "./assets/portfolio/certifications/cert-1779112218860-cover.png"
+    },
+    {
+      "id": 1779112650727,
+      "name": "SQL SERVER FOR INTERMEDIATE",
+      "issuer": "Universitas Gunadarma",
+      "issued_at": "2024-02-19",
+      "expires_at": "2030-12-31",
+      "credential_id": "184121",
+      "credential_url": "",
+      "image": "./assets/portfolio/certifications/cert-1779112650727.pdf",
+      "cover": "./assets/portfolio/certifications/cert-1779112650727-cover.png"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "skill": "React",
+      "category": "Frontend"
+    },
+    {
+      "id": 2,
+      "skill": "Vue JS",
+      "category": "Frontend"
+    },
+    {
+      "id": 3,
+      "skill": "Laravel",
+      "category": "Backend"
+    },
+    {
+      "id": 4,
+      "skill": "Node JS",
+      "category": "Backend"
+    },
+    {
+      "id": 5,
+      "skill": "MySQL",
+      "category": "Database"
+    },
+    {
+      "id": 6,
+      "skill": "MongoDB",
+      "category": "Database"
+    },
+    {
+      "id": 7,
+      "skill": "Python",
+      "category": "Programming Language"
+    },
+    {
+      "id": 8,
+      "skill": "JavaScript",
+      "category": "Programming Language"
+    },
+    {
+      "id": 9,
+      "skill": "Tailwind",
+      "category": "Others"
+    },
+    {
+      "id": 10,
+      "skill": "Git",
+      "category": "Others"
+    },
+    {
+      "id": 1779098753322,
+      "skill": "Next JS",
+      "category": "Backend"
+    },
+    {
+      "id": 1779114076398,
+      "skill": "Dart",
+      "category": "Programming Language"
+    },
+    {
+      "id": 1779119594162,
+      "skill": "PostgreSQL",
+      "category": "Database"
+    }
+  ]
+}
